@@ -75,26 +75,62 @@ const CarList = ({ cars, onEdit, onDelete }) => {
         <Table>
           <TableHead sx={{ backgroundColor: "#6200EA" }}>
             <TableRow>
-              <TableCell sx={{ textAlign: "center", color: "#FFFFFF" }}>
+              <TableCell
+                sx={{
+                  textAlign: "center",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                }}
+              >
                 License Plate
               </TableCell>
-              <TableCell sx={{ textAlign: "center", color: "#FFFFFF" }}>
+              <TableCell
+                sx={{
+                  textAlign: "center",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                }}
+              >
                 Brand
               </TableCell>
-              <TableCell sx={{ textAlign: "center", color: "#FFFFFF" }}>
+              <TableCell
+                sx={{
+                  textAlign: "center",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                }}
+              >
                 Model
               </TableCell>
-              <TableCell sx={{ textAlign: "center", color: "#FFFFFF" }}>
+              <TableCell
+                sx={{
+                  textAlign: "center",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                }}
+              >
                 Notes
               </TableCell>
-              <TableCell sx={{ textAlign: "center", color: "#FFFFFF" }}>
+              <TableCell
+                sx={{
+                  textAlign: "center",
+                  color: "#FFFFFF",
+                  fontWeight: "bold",
+                }}
+              >
                 Actions
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {filteredCars.map((car, index) => (
-              <TableRow key={index}>
+              <TableRow
+                key={index}
+                sx={{
+                  backgroundColor: index % 2 === 0 ? "#f5f5f5" : "#ffffff",
+                  "&:hover": { backgroundColor: "#e0e0e0" },
+                }}
+              >
                 <TableCell sx={{ textAlign: "center" }}>
                   {car.licensePlate}
                 </TableCell>
