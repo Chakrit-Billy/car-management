@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 
 const CarList = ({ cars, onEdit, onDelete }) => {
+  console.log(cars);
   return (
     <TableContainer component={Paper}>
       <Table>
@@ -24,8 +25,8 @@ const CarList = ({ cars, onEdit, onDelete }) => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {cars.map((car) => (
-            <TableRow key={car.id}>
+          {cars.map((car, index) => (
+            <TableRow key={index}>
               <TableCell>{car.licensePlate}</TableCell>
               <TableCell>{car.brand}</TableCell>
               <TableCell>{car.model}</TableCell>
@@ -40,7 +41,7 @@ const CarList = ({ cars, onEdit, onDelete }) => {
                   Edit
                 </Button>
                 <Button
-                  onClick={() => onDelete(car.id)}
+                  onClick={() => onDelete(car._id)}
                   variant="contained"
                   color="secondary"
                 >
