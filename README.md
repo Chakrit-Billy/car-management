@@ -10,10 +10,6 @@ A simple car management system built using React with Material-UI, Node.js, and 
 - [Introduction](#introduction)
 - [Features](#features)
 - [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
