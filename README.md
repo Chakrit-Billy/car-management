@@ -2,7 +2,8 @@
 
 A simple car management system built using React with Material-UI, Node.js, and MongoDB.
 
-![Car Management System](path-to-your-screenshot.png)
+![image](https://github.com/Chakrit-Billy/car-management/assets/134628392/79bc7366-bef4-4a5c-89f6-bf407b682f8f)
+
 
 ## Table of Contents
 
