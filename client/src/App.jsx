@@ -44,8 +44,10 @@ const App = () => {
         component="h1"
         gutterBottom
         sx={{
+          background: "linear-gradient(45deg, #9c27b0, #00bcd4)",
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
           textAlign: "center",
-          color: "#ff5722",
           fontWeight: "bold",
           textTransform: "uppercase",
           letterSpacing: 2,
