@@ -33,10 +33,5 @@ This project is a simple car management system that allows users to add, view, e
 - **Backend**: Node.js, Express
 - **Database**: MongoDB
 
-## Getting Started
 
-### Prerequisites
-
-- Node.js
-- MongoDB
 
