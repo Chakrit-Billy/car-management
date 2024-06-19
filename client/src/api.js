@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:5000/api", // Adjust the URL as per your backend configuration and dont forget to modify port
+  baseURL: "https://car-management-vert.vercel.app/api", // Adjust the URL as per your backend configuration and dont forget to modify port
 });
 
 export const getCars = () => api.get("/cars");
